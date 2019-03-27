@@ -3,12 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-// Use bootstrap css
 import "bootstrap/dist/css/bootstrap.css";
-// Grab our Counter class for testing
-//import Counters from "./components/counters";
 
-// Change this from App to Counter(s) for testing
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
