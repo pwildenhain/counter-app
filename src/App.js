@@ -44,10 +44,10 @@ class App extends Component {
   };
 
   handleAdd = () => {
-    let counters = [...this.state.counters]
+    let counters = [...this.state.counters];
     const ids = counters.map(c => c.id).sort();
     const max_id = counters.length > 0 ? ids[ids.length - 1] : 0;
-    counters.push({id: max_id + 1, value: 0})
+    counters.push({ id: max_id + 1, value: 0 });
     this.setState({ counters });
   };
 
